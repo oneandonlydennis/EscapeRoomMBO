@@ -1,0 +1,72 @@
+
+@font-face{
+    font-family: alimony;
+    src: url("../misc/Alimony.otf") format("opentype");
+}
+
+nav{
+    width: 100%;
+}
+
+.nav_right_top{
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+}
+
+.left_nav{
+    display: flex;
+    float: left;
+}
+
+ul{
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    float: left;
+}
+
+ul li a{
+    display: block;
+    font-family: alimony;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+nav img{
+    width: 340px;
+    height: 100px;
+    float: left;
+    margin-left: -9%;
+}
+
+main{
+    clear: left;
+}
+
+.keeper{
+    background: rgba(215,205,230,0.5);
+    padding: 15px;
+    height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+footer{
+    background: rgba(215,205,230,0.5);
+    margin: 3% 0;
+    padding: 5px;
+}
