@@ -19,18 +19,18 @@ nav{
     float: left;
 }
 
-ul{
+nav ul{
     list-style-type: none;
     display: inline;
     margin: 0;
     padding: 0;
 }
 
-ul li{
+nav ul li{
     float: left;
 }
 
-ul li a{
+nav ul li a{
     display: block;
     font-family: alimony;
     color: white;
@@ -39,7 +39,7 @@ ul li a{
     text-decoration: none;
 }
 
-ul li a:hover{
+nav ul li a:hover{
     color: white;
     text-decoration: none;
 }
@@ -53,11 +53,13 @@ nav img{
 
 main{
     clear: left;
+    color: white;
+    height: 100%;
 }
 
 .keeper{
-    background: rgba(215,205,230,0.5);
     padding: 15px;
+    color: white;
     height: 100%;
 }
 
@@ -66,7 +68,7 @@ main{
 }
 
 footer{
-    background: rgba(215,205,230,0.5);
+    color: white;
     margin: 3% 0;
     padding: 5px;
 }
