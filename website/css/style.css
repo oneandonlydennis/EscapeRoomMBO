@@ -69,6 +69,12 @@ main{
 
 footer{
     color: white;
-    margin: 3% 0;
+    margin: 10% 0 0 0;
     padding: 5px;
+    border-top: 1px dotted white;
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
 }
